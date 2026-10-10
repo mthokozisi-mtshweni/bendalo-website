@@ -12,7 +12,7 @@ export default function Portfolio() {
       <div className="section-shell">
         <div className="section-heading-row work-heading-row">
           <div>
-            <span className="section-index">03 / SELECTED WORK</span>
+            <span className="section-index">05 / SELECTED WORK</span>
             <h2 className="section-title">
               Ideas made
               <br />
