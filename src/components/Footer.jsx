@@ -81,17 +81,10 @@ export default function Footer() {
         <div className="footer-col footer-contact">
           <h4 className="footer-col-title">Get in Touch</h4>
 
-          <a
-            className="footer-contact-item"
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-              contact.location
-            )}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FiMapPin />
-            <span>{contact.location}</span>
-          </a>
+         <div className="footer-contact-item">
+          <FiMapPin />
+          <span>Serving {contact.serviceArea}</span>
+        </div>
 
           <a
             className="footer-contact-item"

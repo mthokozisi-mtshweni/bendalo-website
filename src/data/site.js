@@ -166,10 +166,19 @@ export const processSteps = [
 // ⚠️ REPLACE PLACEHOLDER VALUES BELOW BEFORE GOING LIVE
 export const contact = {
   email: "mthosbudah03@gmail.com",
-  phone: "+27 62 411 2278",           // ← your real phone
-  phoneDisplay: "+27 62 411 2278",     // ← how it should look on screen
-  whatsapp: "+27 82 330 8964",         // ← your real WhatsApp
-  whatsappLink: "https://wa.me/27823305964", // ← digits only, no +
+
+  // General telephone number — unchanged until confirmed
+  phone: "+27 62 411 2278",
+  phoneDisplay: "+27 62 411 2278",
+
+  // Official WhatsApp contact
+  whatsapp: "+27 82 330 5964",
+  whatsappLink: "https://wa.me/27823305964",
+
+  // Areas served, not a physical office address
+  serviceArea: "Mpumalanga and Gauteng, South Africa",
+
+  // Existing location listing — don't use this as the service area
   location: "Emalahleni, Mpumalanga, South Africa",
 };
 
