@@ -44,33 +44,34 @@ export const projects = [
     live: true,
   },
   {
-    number: "03",
-    name: "Vhutec Med",
-    category: "Healthcare · Management System",
-    description:
-      "A hospital appointment and patient queue management platform.",
-    image: "/images/projects/Vhutec.png",
-    url: null,
-    live: false,
-  },
-  {
-    number: "04",
-    name: "Speak & Grow AI",
-    category: "AI · Education Platform",
-    description:
-      "An AI-powered platform for English communication and personal development.",
-    image: "/images/projects/speak-grow.png",
-    url: "https://speak-and-grow-ai-3mt1-pi.vercel.app/",
-    live: true,
-  },
+  number: "03",
+  name: "Ntosifiso Garden",
+  category: "Lifestyle Resorts & Event Venues",
+  description:
+    "A premier leisure and event destination in Mpumalanga, offering gardens, pools, and spaces for weddings, parties, and family day visits.",
+  image: "/images/projects/ntosfiso (1).png",
+  url: "https://ntosifiso-garden.vercel.app",
+  live: true,
+},
+{
+  number: "04",
+  name: "Zimu's Corner Lifestyle Resort",
+  category: "Lifestyle Resorts & Event Venues",
+  description:
+    "A vibrant lifestyle resort in Tweefontein featuring pools, braai areas, entertainment, and event hosting for families and groups.",
+  image: "/images/projects/zimus.png",
+  url: "https://zimus-corner.vercel.app/",
+  live: true,
+},
+
   {
     number: "05",
-    name: "Taste Path",
-    category: "Restaurant · Digital Experience",
+    name: "Zanelisiwe Events",
+    category: "Event Decorations & Planning",
     description:
-      "A digital platform for exploring and discovering food experiences.",
-    image: "/images/projects/Rastaurant.png",
-    url: "https://taste-path-app.lovable.app/",
+      "A haute eventing company specializing in stylish weddings, parties, and bespoke celebrations with elegant setups.",
+    image: "/images/projects/zanelisiwe.png",
+    url: "https://zanelisiwe-events.vercel.app",
     live: true,
   },
 ];
